@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+//- Make sticky footer
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header,
+.footer {
+    flex: none;
+}
+
+.main {
+    flex: 1 0 auto; 
+}
