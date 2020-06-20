@@ -1,19 +1,19 @@
 {
-	"name": "Webpuch-template",
+	"name": "test-for-sfcd",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git+https://github.com/AnarAgaev/test-for-sfcd.git"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Anar.N.Agaev",
 	"license": "ISC",
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/AnarAgaev/test-for-sfcd/issues"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/AnarAgaev/test-for-sfcd#readme",
 	"scripts": {
 		"start": "webpack-dev-server --open --config ./config/webpack.dev.conf.js",
 		"build": "webpack --config ./config/webpack.build.conf.js"
