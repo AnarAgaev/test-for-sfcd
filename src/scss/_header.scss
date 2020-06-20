@@ -1,0 +1,43 @@
+.header {
+  padding: 50px 0 46px;
+  border-bottom: 1px solid #ECECEC;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 5px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+
+    &__list {
+      display: flex;
+      align-items: center;
+    }
+
+    &__item {
+      margin-right: 44px;
+      margin-top: -4px;
+      &:last-child {
+        margin-right: 15px;
+        margin-top: 0;
+      }
+    }
+
+    &__link {
+      font-weight: 600;
+      line-height: 128.91%;
+      color: $font;
+      text-decoration: none;
+
+      &.button {
+        color: $btn-font;
+      }
+    }
+  }
+}
